@@ -60,9 +60,9 @@ if(!empty($_POST['nom']) && ctype_alpha($_POST['nom']) && !empty($_POST['email']
 		<br/>
 		<input type="checkbox" name="wordpress"  id="wordpress"/> <label for="wordpress">Wordpress </label>
 		<br/>
-		<input type="submit" value=" Envoyer ">
+		<input type="submit" value=" Envoyer " id="button-send">
 	
 </form>
 
 </body>
-</html>
+</html> 
