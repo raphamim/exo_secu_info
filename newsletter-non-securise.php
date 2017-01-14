@@ -27,7 +27,7 @@ if(!empty($_POST['nom']) && ctype_alpha($_POST['nom']) && !empty($_POST['email']
 
 	$filename = 'liste_abonne.txt';
 	$file = fopen($filename, 'a+');
-	fwrite($file, $nom.' '.$email.' // Thèmes -> '.$securite.''.$linux.''.$wordpress.' || ');
+	fwrite($file, $nom.' '.$email.' // Thèmes -> '.$securite.''.$linux.''.$wordpress.' || <br/>');
 	$contents = file_get_contents($filename);
 	fclose($file);
 } 
