@@ -26,7 +26,7 @@ if(!empty($_POST['login']) && !empty($_POST['mdp'])){
 	
 	<p><?= (!empty($message) ? $message.' '.$login : '')?></p>
 	
-	<form method="POST" id="form">
+	<form name="envoi" method="POST" id="form">
 		<label for="login">login : </label><input type="text" name="login">
 		<br/>
 		<label for="mdp">mdp : </label><input type="text" name="mdp">
